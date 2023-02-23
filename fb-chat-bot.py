@@ -684,7 +684,7 @@ class ChatBot(Client):
                 msg = conSTR(msg,".changenn")
                 self.changeNickname(msg, user_id=message_object.author, thread_id=thread_id, thread_type=thread_type)
             elif (".help" in msg):
-                reply = ".gsearch - Google Search ex:{.gsearch what is bot 1}\n.gimage - Google Image Search ex:{.gimage bot 1}\n.gtranslate - Google Translate ex:{.gtranslate mahal kita en}\n\n.image - search image online ex:{.image bot 1}\n.weather - {county/city}\n.say - convert text to speech ex:{.say bot}\n.solve - basic math calculation ex:{.solve bot 1 + 1}\n\nCredit: Jus Tine Que Zon"
+                reply = ".gsearch - Google Search ex:{.gsearch what is bot 1}\n.gimage - Google Image Search ex:{.gimage bot 1}\n.gtranslate - Google Translate ex:{.gtranslate mahal kita en}\n\n.image - search image online ex:{.image bot 1}\n.weather - {county/city}\n.say - convert text to speech ex:{.say bot}\n.solve - basic math calculation ex:{.solve bot 1 + 1}\n\nCredit: Sinu han"
                 sendMsg()
             elif (".unsend" == msg):
                 for val in msgids:
@@ -935,11 +935,11 @@ class ChatBot(Client):
 
 
 cookies = {
-    "sb": "xasyYmAoy1tRpMGYvLxgkHBF",
-    "fr": "0NxayJuewRHQ30OX3.AWVJwIYNh0Tt8AJv6kSwDamhkoM.BiMrVd.Iu.AAA.0.0.BiMtVZ.AWXMVaiHrpQ",
-    "c_user": "100078868689291",
-    "datr": "xasyYs51GC0Lq5H5lvXTl5zA",
-    "xs": "24%3AQJWvVEXcTLTARA%3A2%3A1666372990%3A-1%3A7776"
+    "sb": "oM4BY9Lje41YqRMgxaHLGXKR",
+    "fr": "06VcgyQODzZ4eJKOj.AWWPYBqM7jIR2aLfd5QUoRpPRE0.Bjupff.Mn.AAA.0.0.Bj83kj.AWVL2agj4XY",
+    "c_user": "100082642220621",
+    "datr": "oM4BY2Vzu7gHjJrhjbqiHCP5",
+    "xs": "37%3A7-SpHJha1s-D9Q%3A2%3A1676900645%3A-1%3A7825"
 }
 
 
